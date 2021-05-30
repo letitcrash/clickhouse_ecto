@@ -29,9 +29,9 @@ defmodule ClickhouseEcto.Mixfile do
   defp deps do
     [
       {:ecto_sql, "~> 3.4"},
-      {:clickhousex, github: "letitcrash/clickhousex"},
+      {:clickhousex, github: "letitcrash/clickhousex", ref: "a2bc2d2"},
       {:ex_doc, "~> 0.19", only: :dev},
-      {:db_connection, "~> 2.2.1", override: true},
+      {:db_connection, "~> 2.3.1"},
       {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false}
     ]
   end
