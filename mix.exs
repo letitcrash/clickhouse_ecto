@@ -31,7 +31,7 @@ defmodule ClickhouseEcto.Mixfile do
       {:ecto_sql, "~> 3.4"},
       {:clickhousex, github: "letitcrash/clickhousex", ref: "cec351a"},
       {:ex_doc, "~> 0.19", only: :dev},
-      {:db_connection, "~> 2.3.1"},
+      {:db_connection, "~> 2.3"},
       {:dialyxir, "~> 1.0.0-rc.7", only: [:dev], runtime: false}
     ]
   end
